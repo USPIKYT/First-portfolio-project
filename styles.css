@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-info {
+    padding-top: 14px;
+    display: flex;
+}
+
+
+.header-container {
+    height: 44px;
+    background: #000000;
+}
+
+.header-icon-phone i {
+    color: #969696;
+    margin-left: 405px;
+}
+
+.header-icon-arrow i {
+    color: #969696;
+    margin-left: 593px;
+}
+
+
+.header-p {
+    margin-left: 15px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.log-out {
+    padding-left: 5px;
+    color: #969696;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.slash {
+    color: #969696;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.log-in {
+    padding-right: 5px;
+    margin-left: 10px;
+    color: #969696;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.log-in:hover {
+    cursor: pointer;
+}
+
+.log-out:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.header-icon-phone {
+    cursor: pointer;
+}
+
+.header-p:hover {
+    cursor: default;
+}
+
+.header-icon-arrow:hover {
+    cursor: pointer;
+}
+
+.slash:hover {
+    cursor: default;
+}
+
+.header-main div,h2:hover {
+   cursor: pointer;
+}
+
+.header-main {
+    display: flex;
+    background: #0F0F0F;
+    min-height: 80px;
+}
+
+.header-h {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Stick No Bills', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 15px;
+    margin-left: 405px;
+}
+
+.liked {
+    margin-left: 469px;
+    background: #0F0F0F;
+    width: 136px;
+    height: 80px;
+}
+
+.personal-area {
+    background: #0F0F0F;
+    width: 156px;
+    height: 80px;
+}
+
+.settings {
+    background: #0F0F0F;
+    width: 118px;
+    height: 80px;
+}
+
+.liked:hover {
+    background: #1F1F1F;
+    transition: 350ms;
+}
+
+.personal-area:hover {
+    background: #1F1F1F;
+    transition: 350ms;
+}
+
+.settings:hover {
+    background: #1F1F1F;
+    transition: 350ms;
+}
+
+.liked-h {
+    padding-left: 20px;
+    padding-top: 31px;
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.personal-area-h {
+    white-space: nowrap;
+    padding-left: 20px;
+    padding-top: 31px;
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.settings-h {
+    padding-left: 20px;
+    padding-top: 31px;
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.cart-icon {
+    color: #FFFFFF;
+    padding-top: 29px;
+    padding-left: 60px;
+}
+
+.search-icon {
+    color: #FFFFFF;
+    padding-top: 29px;
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-firstline {
+    background-image: url('/imgs/Rectangle-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 810px;
+}
+
+.header-main-h1 {
+    padding-top: 253px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Stick No Bills', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    margin-left: 867px;
+}
+
+.hr {
+    max-width: 185px;
+    margin-left: 870px;
+}
+
+.header-main-h2 {
+    padding-top: 7px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    margin-left: 932px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.border {
+    position: relative;
+    left: 800px;
+    top: -225px;
+    height: 320px;
+    width: 320px;
+    border: #FFFFFF 4px solid;
+}
+
+.header-main-p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-main-p-box {
+    position: relative;
+    top: -146px;
+    margin-left: 595px; 
+    text-align: center;
+    max-width: 730px;
+}
+
+
+
+
+
+
+.main-seasons {
+    background-image: url('/imgs/Rectangle-7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 730px;
+    width: 1010px;
+}
+
+.main-collection {
+    position: absolute;
+    left: 1010px;
+    top: 934px;
+    background-image: url('/imgs/Rectangle-8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 846px;
+    height: 730px;
+}
+
+.seasons-heading {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 93px;
+}
+
+.seasons-hr {
+    max-width: 120px;
+    /* padding-top: 50px; */
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.watches-heading {
+    color: #FFFFFF;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 25px;
+}
+
+.watches-price {
+    padding-top: 10px;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    line-height: 19px;
+    color: #D0D0D0;
+}
+
+.img-bkg {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: #191B1C;
+ width: 260px;
+ height: 325px;
+}
+
+.watches-section-first {
+    padding-top: 50px;
+    padding-left: 65px;
+}
+
+.whole-watches-section {
+    display: flex;
+}
+
+.watches-section {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.main-collection-heading {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-collection-hr {
+    margin-left: 381px;
+    width: 120px;
+    margin-top: 30px;
+
+}
+
+.main-collection-button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 371px;
+    margin-top: 30px;
+    width: 138px;
+    height: 47px;
+    background: rgb(255, 255, 255, 0);
+    border: 1px solid #FFFFFF;
+}
+
+.main-collection {
+    padding-top: 484px;
+}
+
+
+
+
+
+
+
+
+
+.collection-photo {
+    width: 880px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url('/imgs/Rectangle-9.jpg');
+}
+
+.collection-black-bkg {
+    left: 880px;
+    top: 1664px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url('/imgs/Rectangle-11.jpg');
+    width: 976px;
+    height: 600px;
+}
+
+.collection-heading-text {
+    padding-top: 100px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.collection-hr {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 120px;
+}
+
+.collection-p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.collection-p-box {
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 471px;
+    max-height: 173px;
+}
+
+.collection-btn {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 93px;
+    margin-left: 333px;
+    background: rgb(255, 255, 255, 0);
+    border: 1px solid #FFFFFF;
+    width: 311px;
+    height: 47px;
+}
+
+
+
+
+
+.new-income-heading {
+    padding-top: 120px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-income-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url('/imgs/Rectangle-10.jpg');
+    /* width: 1856px; */
+    height: 1289px;
+}
+
+.new-income-hr {
+    margin: 0 auto;
+    width: 120px;
+}
+
+.hr-income-box {
+    padding-top: 40px;
+}
+
+.watches-box {
+    padding-top: 81px;
+    max-width: 1209px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.watches-section-income-other {
+    margin-left: 23px;
+}
+
+.lower-watches-layer {
+    display: flex;
+    padding-top: 40px;
+}
+
+.watches-wrapper-box {
+    margin-left: 374px;
+}
+
+
+
+
+
+
+
+.our-brands-heading {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-brands-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url('/imgs/gray-bkg.jpg');
+    height: 362px;
+}
+
+.our-brands-hr {
+    width: 120px;
+    margin-top: 40px;
+}
+
+.our-hr-div {
+    display: flex;
+    justify-content: center;
+}
+
+.our-brands-imgs {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.our-brands-img {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+.main-footer-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url('/imgs/footer-bkg.jpg');
+    height: 400px;
+}
+
+.about-shop-heading {
+    font-family: 'Playfair Display';
+    padding-top: 80px;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.about-shop-p {
+    padding-top: 40px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.footer-text-box {
+    width: 350px;
+}
+
+.Category-heading {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-a {
+    color: #D0D0D0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.footer-watches-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F0F0F;
+    width: 70px;
+    height: 41px;
+}
+
+.footer-a-box{
+    padding-top: 80px;
+    margin-left: 30px;
+}
+
+.footer-a-container {
+    flex-wrap: wrap;
+    max-width: 287px;
+    display: flex;
+    padding-top: 40px;
+}
+
+.footer-braslet-box {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F0F0F;
+    width: 98px;
+    height: 41px;
+}
+
+.footer-remni-box {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F0F0F;
+    width: 79px;
+    height: 41px;
+}
+
+.footer-jewelir-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F0F0F;
+    width: 164px;
+    height: 41px;
+}
+
+.footer-zaponki-box {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F0F0F;
+    width: 91px;
+    height: 41px;
+}
+
+.main-footer-box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-input-box {
+    padding-top: 80px;
+    margin-left: 92px;
+    max-width: 350px;
+}
+
+.newsletter-heading {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.newsletter-p {
+    padding-top: 40px;
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.footer-a-container div:hover {
+    cursor: pointer;
+    background: #1F1F1F;
+    transition: 350ms;
+}
+
+.email-input_box {
+    padding-top: 37px;
+}
+
+
+.email-input {
+    box-shadow: none;
+    appearance: none;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    width: 210px;
+    height: 42px;
+    border: none;
+    padding-left: 11px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.input_placeholder {
+    pointer-events: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    right: 602px;
+    top: 4151px;
+    color: #969696;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: block;
+    position: absolute;
+}
+   
+
+.input_button {
+    left: 1343px;
+    top: 4142px;
+    position: absolute;
+    display: block;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background: #0F0F0F;
+    width: 140px;
+    height: 41px;
+}
+
+.input_button:hover {
+    cursor: pointer;
+}
+
+.email-input:focus ~ .input_placeholder,
+.email-input:valid ~ .input_placeholder{
+    opacity: 0;
+}
+
+
+
+
+.footer-line {
+    display: flex;
+    align-items: center;
+    background: #0F0F0F;
+    min-height: 50px;
+}
+
+.footer-line-p {
+    margin-left: 380px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
